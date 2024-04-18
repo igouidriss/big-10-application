@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Table8.
+    -->
+    <changeSet id="20240418191622-1" author="jhipster">
+        <createTable tableName="table_8">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="num_ligne_1" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="resort_2" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resv_name_id_3" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_o_id_4" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_chb_5" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="confirmation_no_6" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_mdm_id_7" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="name_id_8" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="parent_resv_name_id_9" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="contact_id_10" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="agence_id_11" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="agence_nom_12" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="societe_id_13" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="groupe_id_14" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_bloc_15" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_resv_16" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_resv_17" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_debut_resv_18" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_fin_resv_19" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="trunc_date_debut_resv_20" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="trunc_date_fin_resv_21" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_ann_resv_22" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="pseudo_room_yn_23" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="createur_resv_24" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nom_createur_resv_25" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_garantie_26" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="flg_ded_27" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_pays_28" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_pays_29" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_nationalite_30" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_nationalite_31" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_source_32" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_source_33" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_grand_source_34" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_origine_35" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_origine_36" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_marche_37" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_marche_38" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_grand_marche_39" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_grand_marche_40" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_prix_41" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="categ_prix_42" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_prix_43" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_chb_44" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="description_type_chb_45" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_type_chb_46" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="class_chb_47" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="caract_chb_48" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_chb_de_reservation_49" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="description_type_chb_de_resv_50" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_type_chb_de_resv_51" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_de_reservation_52" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="circuit_distribution_53" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="circuit_distrib_user_regroup_54" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_crs_55" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_ref_crs_56" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="crs_insert_date_57" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_crea_resv_58" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_premier_59" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_premier_60" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_dernier_61" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_dernier_62" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_dernier_pseudo_63" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_dernier_pseudo_64" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="diff_dt_crea_ann_65" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="diff_dt_arr_ann_66" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="leadtime_67" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="los_68" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="occupants_groupe_69" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_nuitee_70" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_nuitee_nn_ded_71" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_resv_ann_72" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_adu_73" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_enf_74" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_day_u_75" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_arr_76" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_dep_77" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_ann_78" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_noshow_79" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_day_u_80" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_arr_81" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_dep_82" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_ann_83" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_noshow_84" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_chambre_85" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_chambre_86" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_chambre_global_87" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_chambre_global_88" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_bq_89" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_bq_90" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_bq_global_91" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_bq_global_92" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_extra_93" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_extra_94" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_extra_global_95" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_extra_global_96" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_total_97" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_total_98" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_total_global_99" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_total_global_100" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_chambre_101" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_bq_102" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_extra_103" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_total_104" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_chambre_nb_nuitees_105" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_create_date_106" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_update_date_107" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_ligne_108" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="resort_109" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resv_name_id_110" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_o_id_111" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_chb_112" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="confirmation_no_113" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_mdm_id_114" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="name_id_115" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="parent_resv_name_id_116" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="contact_id_117" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="agence_id_118" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="agence_nom_119" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="societe_id_120" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="groupe_id_121" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_bloc_122" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_resv_123" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_resv_124" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_debut_resv_125" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_fin_resv_126" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="trunc_date_debut_resv_127" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="trunc_date_fin_resv_128" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_ann_resv_129" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="pseudo_room_yn_130" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="createur_resv_131" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nom_createur_resv_132" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_garantie_133" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="flg_ded_134" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_pays_135" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_pays_136" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_nationalite_137" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_nationalite_138" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_source_139" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_source_140" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_grand_source_141" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_origine_142" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_origine_143" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_marche_144" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_marche_145" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_grand_marche_146" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_grand_marche_147" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_prix_148" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="categ_prix_149" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_prix_150" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_chb_151" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="description_type_chb_152" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_type_chb_153" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="class_chb_154" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="caract_chb_155" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_chb_de_reservation_156" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="description_type_chb_de_resv_157" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_type_chb_de_resv_158" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_de_reservation_159" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="circuit_distribution_160" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="circuit_distrib_user_regroup_161" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_crs_162" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_ref_crs_163" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="crs_insert_date_164" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_crea_resv_165" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_premier_166" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_premier_167" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_dernier_168" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_dernier_169" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_dernier_pseudo_170" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_dernier_pseudo_171" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="diff_dt_crea_ann_172" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="diff_dt_arr_ann_173" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="leadtime_174" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="los_175" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="occupants_groupe_176" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_nuitee_177" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_nuitee_nn_ded_178" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_resv_ann_179" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_adu_180" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_enf_181" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_day_u_182" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_arr_183" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_dep_184" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_ann_185" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_noshow_186" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_day_u_187" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_arr_188" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_dep_189" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_ann_190" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_noshow_191" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_chambre_192" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_chambre_193" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_chambre_global_194" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_chambre_global_195" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_bq_196" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_bq_197" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_bq_global_198" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_bq_global_199" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_extra_200" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_extra_201" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_extra_global_202" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_extra_global_203" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_total_204" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_total_205" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_total_global_206" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_total_global_207" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_chambre_208" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_bq_209" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_extra_210" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_revenu_total_211" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="prod_chambre_nb_nuitees_212" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_create_date_213" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_update_date_214" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_ligne_215" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="resort_216" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resv_name_id_217" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_o_id_218" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_chb_219" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="confirmation_no_220" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_mdm_id_221" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="name_id_222" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="parent_resv_name_id_223" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="contact_id_224" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="agence_id_225" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="agence_nom_226" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="societe_id_227" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="groupe_id_228" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_bloc_229" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_resv_230" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_resv_231" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_debut_resv_232" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_fin_resv_233" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="trunc_date_debut_resv_234" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="trunc_date_fin_resv_235" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_ann_resv_236" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="pseudo_room_yn_237" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="createur_resv_238" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nom_createur_resv_239" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_garantie_240" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="flg_ded_241" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_pays_242" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_pays_243" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_nationalite_244" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_nationalite_245" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_source_246" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_source_247" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_grand_source_248" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_origine_249" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_origine_250" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_marche_251" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_marche_252" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_grand_marche_253" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_grand_marche_254" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_prix_255" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="categ_prix_256" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lib_prix_257" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_chb_258" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="description_type_chb_259" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_type_chb_260" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="class_chb_261" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="caract_chb_262" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_chb_de_reservation_263" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="description_type_chb_de_resv_264" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_type_chb_de_resv_265" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_de_reservation_266" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="circuit_distribution_267" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="circuit_distrib_user_regroup_268" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_crs_269" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="type_ref_crs_270" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="crs_insert_date_271" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_crea_resv_272" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_premier_273" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_premier_274" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_dernier_275" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_dernier_276" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_dernier_pseudo_277" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_dernier_pseudo_278" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="diff_dt_crea_ann_279" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="diff_dt_arr_ann_280" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="leadtime_281" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="los_282" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="occupants_groupe_283" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_nuitee_284" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_nuitee_nn_ded_285" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_resv_ann_286" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_adu_287" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_enf_288" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_day_u_289" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_arr_290" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_dep_291" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_ann_292" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_pers_noshow_293" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_day_u_294" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_arr_295" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_dep_296" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_ann_297" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="nb_chb_noshow_298" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_chambre_299" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_chambre_300" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_chambre_global_301" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_chambre_global_302" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_bq_303" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_bq_304" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_bq_global_305" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_bq_global_306" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_extra_307" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_extra_308" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_net_extra_global_309" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="revenu_taxe_extra_global_310" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20240418191622-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/table_8.csv"
+                  separator=";"
+                  tableName="table_8"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="num_ligne_1" type="numeric"/>
+            <column name="resort_2" type="string"/>
+            <column name="resv_name_id_3" type="numeric"/>
+            <column name="client_o_id_4" type="string"/>
+            <column name="type_chb_5" type="string"/>
+            <column name="confirmation_no_6" type="string"/>
+            <column name="client_mdm_id_7" type="string"/>
+            <column name="name_id_8" type="numeric"/>
+            <column name="parent_resv_name_id_9" type="numeric"/>
+            <column name="contact_id_10" type="numeric"/>
+            <column name="agence_id_11" type="numeric"/>
+            <column name="agence_nom_12" type="string"/>
+            <column name="societe_id_13" type="numeric"/>
+            <column name="groupe_id_14" type="numeric"/>
+            <column name="num_bloc_15" type="numeric"/>
+            <column name="type_resv_16" type="string"/>
+            <column name="statut_resv_17" type="string"/>
+            <column name="date_debut_resv_18" type="date"/>
+            <column name="date_fin_resv_19" type="date"/>
+            <column name="trunc_date_debut_resv_20" type="date"/>
+            <column name="trunc_date_fin_resv_21" type="date"/>
+            <column name="date_ann_resv_22" type="date"/>
+            <column name="pseudo_room_yn_23" type="string"/>
+            <column name="createur_resv_24" type="numeric"/>
+            <column name="nom_createur_resv_25" type="string"/>
+            <column name="code_garantie_26" type="string"/>
+            <column name="flg_ded_27" type="string"/>
+            <column name="code_pays_28" type="string"/>
+            <column name="lib_pays_29" type="string"/>
+            <column name="code_nationalite_30" type="string"/>
+            <column name="lib_nationalite_31" type="string"/>
+            <column name="code_source_32" type="string"/>
+            <column name="lib_source_33" type="string"/>
+            <column name="code_grand_source_34" type="string"/>
+            <column name="code_origine_35" type="string"/>
+            <column name="lib_origine_36" type="string"/>
+            <column name="code_marche_37" type="string"/>
+            <column name="lib_marche_38" type="string"/>
+            <column name="code_grand_marche_39" type="string"/>
+            <column name="lib_grand_marche_40" type="string"/>
+            <column name="code_prix_41" type="string"/>
+            <column name="categ_prix_42" type="string"/>
+            <column name="lib_prix_43" type="string"/>
+            <column name="num_chb_44" type="string"/>
+            <column name="description_type_chb_45" type="string"/>
+            <column name="code_type_chb_46" type="string"/>
+            <column name="class_chb_47" type="string"/>
+            <column name="caract_chb_48" type="string"/>
+            <column name="type_chb_de_reservation_49" type="string"/>
+            <column name="description_type_chb_de_resv_50" type="string"/>
+            <column name="code_type_chb_de_resv_51" type="string"/>
+            <column name="statut_de_reservation_52" type="string"/>
+            <column name="circuit_distribution_53" type="string"/>
+            <column name="circuit_distrib_user_regroup_54" type="string"/>
+            <column name="num_crs_55" type="string"/>
+            <column name="type_ref_crs_56" type="string"/>
+            <column name="crs_insert_date_57" type="date"/>
+            <column name="date_crea_resv_58" type="date"/>
+            <column name="date_premier_59" type="date"/>
+            <column name="statut_premier_60" type="string"/>
+            <column name="date_dernier_61" type="date"/>
+            <column name="statut_dernier_62" type="string"/>
+            <column name="date_dernier_pseudo_63" type="date"/>
+            <column name="statut_dernier_pseudo_64" type="string"/>
+            <column name="diff_dt_crea_ann_65" type="numeric"/>
+            <column name="diff_dt_arr_ann_66" type="numeric"/>
+            <column name="leadtime_67" type="numeric"/>
+            <column name="los_68" type="numeric"/>
+            <column name="occupants_groupe_69" type="string"/>
+            <column name="nb_nuitee_70" type="numeric"/>
+            <column name="nb_nuitee_nn_ded_71" type="numeric"/>
+            <column name="nb_resv_ann_72" type="numeric"/>
+            <column name="nb_adu_73" type="numeric"/>
+            <column name="nb_enf_74" type="numeric"/>
+            <column name="nb_pers_day_u_75" type="numeric"/>
+            <column name="nb_pers_arr_76" type="numeric"/>
+            <column name="nb_pers_dep_77" type="numeric"/>
+            <column name="nb_pers_ann_78" type="numeric"/>
+            <column name="nb_pers_noshow_79" type="numeric"/>
+            <column name="nb_chb_day_u_80" type="numeric"/>
+            <column name="nb_chb_arr_81" type="numeric"/>
+            <column name="nb_chb_dep_82" type="numeric"/>
+            <column name="nb_chb_ann_83" type="numeric"/>
+            <column name="nb_chb_noshow_84" type="numeric"/>
+            <column name="revenu_net_chambre_85" type="numeric"/>
+            <column name="revenu_taxe_chambre_86" type="numeric"/>
+            <column name="revenu_net_chambre_global_87" type="numeric"/>
+            <column name="revenu_taxe_chambre_global_88" type="numeric"/>
+            <column name="revenu_net_bq_89" type="numeric"/>
+            <column name="revenu_taxe_bq_90" type="numeric"/>
+            <column name="revenu_net_bq_global_91" type="numeric"/>
+            <column name="revenu_taxe_bq_global_92" type="numeric"/>
+            <column name="revenu_net_extra_93" type="numeric"/>
+            <column name="revenu_taxe_extra_94" type="numeric"/>
+            <column name="revenu_net_extra_global_95" type="numeric"/>
+            <column name="revenu_taxe_extra_global_96" type="numeric"/>
+            <column name="revenu_net_total_97" type="numeric"/>
+            <column name="revenu_taxe_total_98" type="numeric"/>
+            <column name="revenu_net_total_global_99" type="numeric"/>
+            <column name="revenu_taxe_total_global_100" type="numeric"/>
+            <column name="prod_revenu_chambre_101" type="numeric"/>
+            <column name="prod_revenu_bq_102" type="numeric"/>
+            <column name="prod_revenu_extra_103" type="numeric"/>
+            <column name="prod_revenu_total_104" type="numeric"/>
+            <column name="prod_chambre_nb_nuitees_105" type="numeric"/>
+            <column name="tech_create_date_106" type="date"/>
+            <column name="tech_update_date_107" type="date"/>
+            <column name="num_ligne_108" type="numeric"/>
+            <column name="resort_109" type="string"/>
+            <column name="resv_name_id_110" type="numeric"/>
+            <column name="client_o_id_111" type="string"/>
+            <column name="type_chb_112" type="string"/>
+            <column name="confirmation_no_113" type="string"/>
+            <column name="client_mdm_id_114" type="string"/>
+            <column name="name_id_115" type="numeric"/>
+            <column name="parent_resv_name_id_116" type="numeric"/>
+            <column name="contact_id_117" type="numeric"/>
+            <column name="agence_id_118" type="numeric"/>
+            <column name="agence_nom_119" type="string"/>
+            <column name="societe_id_120" type="numeric"/>
+            <column name="groupe_id_121" type="numeric"/>
+            <column name="num_bloc_122" type="numeric"/>
+            <column name="type_resv_123" type="string"/>
+            <column name="statut_resv_124" type="string"/>
+            <column name="date_debut_resv_125" type="date"/>
+            <column name="date_fin_resv_126" type="date"/>
+            <column name="trunc_date_debut_resv_127" type="date"/>
+            <column name="trunc_date_fin_resv_128" type="date"/>
+            <column name="date_ann_resv_129" type="date"/>
+            <column name="pseudo_room_yn_130" type="string"/>
+            <column name="createur_resv_131" type="numeric"/>
+            <column name="nom_createur_resv_132" type="string"/>
+            <column name="code_garantie_133" type="string"/>
+            <column name="flg_ded_134" type="string"/>
+            <column name="code_pays_135" type="string"/>
+            <column name="lib_pays_136" type="string"/>
+            <column name="code_nationalite_137" type="string"/>
+            <column name="lib_nationalite_138" type="string"/>
+            <column name="code_source_139" type="string"/>
+            <column name="lib_source_140" type="string"/>
+            <column name="code_grand_source_141" type="string"/>
+            <column name="code_origine_142" type="string"/>
+            <column name="lib_origine_143" type="string"/>
+            <column name="code_marche_144" type="string"/>
+            <column name="lib_marche_145" type="string"/>
+            <column name="code_grand_marche_146" type="string"/>
+            <column name="lib_grand_marche_147" type="string"/>
+            <column name="code_prix_148" type="string"/>
+            <column name="categ_prix_149" type="string"/>
+            <column name="lib_prix_150" type="string"/>
+            <column name="num_chb_151" type="string"/>
+            <column name="description_type_chb_152" type="string"/>
+            <column name="code_type_chb_153" type="string"/>
+            <column name="class_chb_154" type="string"/>
+            <column name="caract_chb_155" type="string"/>
+            <column name="type_chb_de_reservation_156" type="string"/>
+            <column name="description_type_chb_de_resv_157" type="string"/>
+            <column name="code_type_chb_de_resv_158" type="string"/>
+            <column name="statut_de_reservation_159" type="string"/>
+            <column name="circuit_distribution_160" type="string"/>
+            <column name="circuit_distrib_user_regroup_161" type="string"/>
+            <column name="num_crs_162" type="string"/>
+            <column name="type_ref_crs_163" type="string"/>
+            <column name="crs_insert_date_164" type="date"/>
+            <column name="date_crea_resv_165" type="date"/>
+            <column name="date_premier_166" type="date"/>
+            <column name="statut_premier_167" type="string"/>
+            <column name="date_dernier_168" type="date"/>
+            <column name="statut_dernier_169" type="string"/>
+            <column name="date_dernier_pseudo_170" type="date"/>
+            <column name="statut_dernier_pseudo_171" type="string"/>
+            <column name="diff_dt_crea_ann_172" type="numeric"/>
+            <column name="diff_dt_arr_ann_173" type="numeric"/>
+            <column name="leadtime_174" type="numeric"/>
+            <column name="los_175" type="numeric"/>
+            <column name="occupants_groupe_176" type="string"/>
+            <column name="nb_nuitee_177" type="numeric"/>
+            <column name="nb_nuitee_nn_ded_178" type="numeric"/>
+            <column name="nb_resv_ann_179" type="numeric"/>
+            <column name="nb_adu_180" type="numeric"/>
+            <column name="nb_enf_181" type="numeric"/>
+            <column name="nb_pers_day_u_182" type="numeric"/>
+            <column name="nb_pers_arr_183" type="numeric"/>
+            <column name="nb_pers_dep_184" type="numeric"/>
+            <column name="nb_pers_ann_185" type="numeric"/>
+            <column name="nb_pers_noshow_186" type="numeric"/>
+            <column name="nb_chb_day_u_187" type="numeric"/>
+            <column name="nb_chb_arr_188" type="numeric"/>
+            <column name="nb_chb_dep_189" type="numeric"/>
+            <column name="nb_chb_ann_190" type="numeric"/>
+            <column name="nb_chb_noshow_191" type="numeric"/>
+            <column name="revenu_net_chambre_192" type="numeric"/>
+            <column name="revenu_taxe_chambre_193" type="numeric"/>
+            <column name="revenu_net_chambre_global_194" type="numeric"/>
+            <column name="revenu_taxe_chambre_global_195" type="numeric"/>
+            <column name="revenu_net_bq_196" type="numeric"/>
+            <column name="revenu_taxe_bq_197" type="numeric"/>
+            <column name="revenu_net_bq_global_198" type="numeric"/>
+            <column name="revenu_taxe_bq_global_199" type="numeric"/>
+            <column name="revenu_net_extra_200" type="numeric"/>
+            <column name="revenu_taxe_extra_201" type="numeric"/>
+            <column name="revenu_net_extra_global_202" type="numeric"/>
+            <column name="revenu_taxe_extra_global_203" type="numeric"/>
+            <column name="revenu_net_total_204" type="numeric"/>
+            <column name="revenu_taxe_total_205" type="numeric"/>
+            <column name="revenu_net_total_global_206" type="numeric"/>
+            <column name="revenu_taxe_total_global_207" type="numeric"/>
+            <column name="prod_revenu_chambre_208" type="numeric"/>
+            <column name="prod_revenu_bq_209" type="numeric"/>
+            <column name="prod_revenu_extra_210" type="numeric"/>
+            <column name="prod_revenu_total_211" type="numeric"/>
+            <column name="prod_chambre_nb_nuitees_212" type="numeric"/>
+            <column name="tech_create_date_213" type="date"/>
+            <column name="tech_update_date_214" type="date"/>
+            <column name="num_ligne_215" type="numeric"/>
+            <column name="resort_216" type="string"/>
+            <column name="resv_name_id_217" type="numeric"/>
+            <column name="client_o_id_218" type="string"/>
+            <column name="type_chb_219" type="string"/>
+            <column name="confirmation_no_220" type="string"/>
+            <column name="client_mdm_id_221" type="string"/>
+            <column name="name_id_222" type="numeric"/>
+            <column name="parent_resv_name_id_223" type="numeric"/>
+            <column name="contact_id_224" type="numeric"/>
+            <column name="agence_id_225" type="numeric"/>
+            <column name="agence_nom_226" type="string"/>
+            <column name="societe_id_227" type="numeric"/>
+            <column name="groupe_id_228" type="numeric"/>
+            <column name="num_bloc_229" type="numeric"/>
+            <column name="type_resv_230" type="string"/>
+            <column name="statut_resv_231" type="string"/>
+            <column name="date_debut_resv_232" type="date"/>
+            <column name="date_fin_resv_233" type="date"/>
+            <column name="trunc_date_debut_resv_234" type="date"/>
+            <column name="trunc_date_fin_resv_235" type="date"/>
+            <column name="date_ann_resv_236" type="date"/>
+            <column name="pseudo_room_yn_237" type="string"/>
+            <column name="createur_resv_238" type="numeric"/>
+            <column name="nom_createur_resv_239" type="string"/>
+            <column name="code_garantie_240" type="string"/>
+            <column name="flg_ded_241" type="string"/>
+            <column name="code_pays_242" type="string"/>
+            <column name="lib_pays_243" type="string"/>
+            <column name="code_nationalite_244" type="string"/>
+            <column name="lib_nationalite_245" type="string"/>
+            <column name="code_source_246" type="string"/>
+            <column name="lib_source_247" type="string"/>
+            <column name="code_grand_source_248" type="string"/>
+            <column name="code_origine_249" type="string"/>
+            <column name="lib_origine_250" type="string"/>
+            <column name="code_marche_251" type="string"/>
+            <column name="lib_marche_252" type="string"/>
+            <column name="code_grand_marche_253" type="string"/>
+            <column name="lib_grand_marche_254" type="string"/>
+            <column name="code_prix_255" type="string"/>
+            <column name="categ_prix_256" type="string"/>
+            <column name="lib_prix_257" type="string"/>
+            <column name="num_chb_258" type="string"/>
+            <column name="description_type_chb_259" type="string"/>
+            <column name="code_type_chb_260" type="string"/>
+            <column name="class_chb_261" type="string"/>
+            <column name="caract_chb_262" type="string"/>
+            <column name="type_chb_de_reservation_263" type="string"/>
+            <column name="description_type_chb_de_resv_264" type="string"/>
+            <column name="code_type_chb_de_resv_265" type="string"/>
+            <column name="statut_de_reservation_266" type="string"/>
+            <column name="circuit_distribution_267" type="string"/>
+            <column name="circuit_distrib_user_regroup_268" type="string"/>
+            <column name="num_crs_269" type="string"/>
+            <column name="type_ref_crs_270" type="string"/>
+            <column name="crs_insert_date_271" type="date"/>
+            <column name="date_crea_resv_272" type="date"/>
+            <column name="date_premier_273" type="date"/>
+            <column name="statut_premier_274" type="string"/>
+            <column name="date_dernier_275" type="date"/>
+            <column name="statut_dernier_276" type="string"/>
+            <column name="date_dernier_pseudo_277" type="date"/>
+            <column name="statut_dernier_pseudo_278" type="string"/>
+            <column name="diff_dt_crea_ann_279" type="numeric"/>
+            <column name="diff_dt_arr_ann_280" type="numeric"/>
+            <column name="leadtime_281" type="numeric"/>
+            <column name="los_282" type="numeric"/>
+            <column name="occupants_groupe_283" type="string"/>
+            <column name="nb_nuitee_284" type="numeric"/>
+            <column name="nb_nuitee_nn_ded_285" type="numeric"/>
+            <column name="nb_resv_ann_286" type="numeric"/>
+            <column name="nb_adu_287" type="numeric"/>
+            <column name="nb_enf_288" type="numeric"/>
+            <column name="nb_pers_day_u_289" type="numeric"/>
+            <column name="nb_pers_arr_290" type="numeric"/>
+            <column name="nb_pers_dep_291" type="numeric"/>
+            <column name="nb_pers_ann_292" type="numeric"/>
+            <column name="nb_pers_noshow_293" type="numeric"/>
+            <column name="nb_chb_day_u_294" type="numeric"/>
+            <column name="nb_chb_arr_295" type="numeric"/>
+            <column name="nb_chb_dep_296" type="numeric"/>
+            <column name="nb_chb_ann_297" type="numeric"/>
+            <column name="nb_chb_noshow_298" type="numeric"/>
+            <column name="revenu_net_chambre_299" type="numeric"/>
+            <column name="revenu_taxe_chambre_300" type="numeric"/>
+            <column name="revenu_net_chambre_global_301" type="numeric"/>
+            <column name="revenu_taxe_chambre_global_302" type="numeric"/>
+            <column name="revenu_net_bq_303" type="numeric"/>
+            <column name="revenu_taxe_bq_304" type="numeric"/>
+            <column name="revenu_net_bq_global_305" type="numeric"/>
+            <column name="revenu_taxe_bq_global_306" type="numeric"/>
+            <column name="revenu_net_extra_307" type="numeric"/>
+            <column name="revenu_taxe_extra_308" type="numeric"/>
+            <column name="revenu_net_extra_global_309" type="numeric"/>
+            <column name="revenu_taxe_extra_global_310" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

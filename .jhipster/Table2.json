@@ -1,0 +1,1252 @@
+{
+  "annotations": {
+    "changelogDate": "20240418191628"
+  },
+  "applications": "*",
+  "entityTableName": "table_2",
+  "fields": [
+    {
+      "fieldName": "numLigne1",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "resort2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resvNameId3",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "clientOId4",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeChb5",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "confirmationNo6",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientMdmId7",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameId8",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "parentResvNameId9",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "contactId10",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "agenceId11",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "agenceNom12",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "societeId13",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "groupeId14",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numBloc15",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "typeResv16",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statutResv17",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDebutResv18",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFinResv19",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "truncDateDebutResv20",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "truncDateFinResv21",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateAnnResv22",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "pseudoRoomYn23",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createurResv24",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nomCreateurResv25",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGarantie26",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "flgDed27",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePays28",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libPays29",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeNationalite30",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libNationalite31",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeSource32",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libSource33",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGrandSource34",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeOrigine35",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libOrigine36",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeMarche37",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libMarche38",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGrandMarche39",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libGrandMarche40",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePrix41",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categPrix42",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libPrix43",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numChb44",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descriptionTypeChb45",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeTypeChb46",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "classChb47",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caractChb48",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeChbDeReservation49",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descriptionTypeChbDeResv50",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeTypeChbDeResv51",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statutDeReservation52",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "circuitDistribution53",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "circuitDistribUserRegroup54",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numCrs55",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeRefCrs56",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "crsInsertDate57",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateCreaResv58",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "datePremier59",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutPremier60",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDernier61",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutDernier62",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDernierPseudo63",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutDernierPseudo64",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "diffDtCreaAnn65",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "diffDtArrAnn66",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "leadtime67",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "los68",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "occupantsGroupe69",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nbNuitee70",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbNuiteeNnDed71",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbResvAnn72",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbAdu73",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbEnf74",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersDayU75",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersArr76",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersDep77",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersAnn78",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersNoshow79",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbDayU80",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbArr81",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbDep82",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbAnn83",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbNoshow84",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "revenuNetChambre85",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeChambre86",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetChambreGlobal87",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeChambreGlobal88",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetBq89",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeBq90",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetBqGlobal91",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeBqGlobal92",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetExtra93",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeExtra94",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetExtraGlobal95",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeExtraGlobal96",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetTotal97",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeTotal98",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetTotalGlobal99",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeTotalGlobal100",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuChambre101",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuBq102",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuExtra103",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuTotal104",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodChambreNbNuitees105",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "techCreateDate106",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "techUpdateDate107",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "numLigne108",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "resort109",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resvNameId110",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "clientOId111",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeChb112",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "confirmationNo113",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientMdmId114",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameId115",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "parentResvNameId116",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "contactId117",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "agenceId118",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "agenceNom119",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "societeId120",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "groupeId121",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numBloc122",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "typeResv123",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statutResv124",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDebutResv125",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFinResv126",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "truncDateDebutResv127",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "truncDateFinResv128",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateAnnResv129",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "pseudoRoomYn130",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createurResv131",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nomCreateurResv132",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGarantie133",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "flgDed134",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePays135",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libPays136",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeNationalite137",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libNationalite138",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeSource139",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libSource140",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGrandSource141",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeOrigine142",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libOrigine143",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeMarche144",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libMarche145",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGrandMarche146",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libGrandMarche147",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePrix148",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categPrix149",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libPrix150",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numChb151",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descriptionTypeChb152",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeTypeChb153",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "classChb154",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caractChb155",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeChbDeReservation156",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descriptionTypeChbDeResv157",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeTypeChbDeResv158",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statutDeReservation159",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "circuitDistribution160",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "circuitDistribUserRegroup161",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numCrs162",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeRefCrs163",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "crsInsertDate164",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateCreaResv165",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "datePremier166",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutPremier167",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDernier168",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutDernier169",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDernierPseudo170",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutDernierPseudo171",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "diffDtCreaAnn172",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "diffDtArrAnn173",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "leadtime174",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "los175",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "occupantsGroupe176",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nbNuitee177",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbNuiteeNnDed178",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbResvAnn179",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbAdu180",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbEnf181",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersDayU182",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersArr183",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersDep184",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersAnn185",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersNoshow186",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbDayU187",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbArr188",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbDep189",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbAnn190",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbNoshow191",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "revenuNetChambre192",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeChambre193",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetChambreGlobal194",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeChambreGlobal195",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetBq196",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeBq197",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetBqGlobal198",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeBqGlobal199",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetExtra200",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeExtra201",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetExtraGlobal202",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeExtraGlobal203",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetTotal204",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeTotal205",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetTotalGlobal206",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeTotalGlobal207",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuChambre208",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuBq209",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuExtra210",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodRevenuTotal211",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "prodChambreNbNuitees212",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "techCreateDate213",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "techUpdateDate214",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "numLigne215",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "resort216",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resvNameId217",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "clientOId218",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeChb219",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "confirmationNo220",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientMdmId221",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameId222",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "parentResvNameId223",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "contactId224",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "agenceId225",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "agenceNom226",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "societeId227",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "groupeId228",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numBloc229",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "typeResv230",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statutResv231",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDebutResv232",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFinResv233",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "truncDateDebutResv234",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "truncDateFinResv235",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateAnnResv236",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "pseudoRoomYn237",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createurResv238",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nomCreateurResv239",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGarantie240",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "flgDed241",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePays242",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libPays243",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeNationalite244",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libNationalite245",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeSource246",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libSource247",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGrandSource248",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeOrigine249",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libOrigine250",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeMarche251",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libMarche252",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeGrandMarche253",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libGrandMarche254",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePrix255",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categPrix256",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libPrix257",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numChb258",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descriptionTypeChb259",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeTypeChb260",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "classChb261",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caractChb262",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeChbDeReservation263",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descriptionTypeChbDeResv264",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codeTypeChbDeResv265",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statutDeReservation266",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "circuitDistribution267",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "circuitDistribUserRegroup268",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numCrs269",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeRefCrs270",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "crsInsertDate271",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateCreaResv272",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "datePremier273",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutPremier274",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDernier275",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutDernier276",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDernierPseudo277",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutDernierPseudo278",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "diffDtCreaAnn279",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "diffDtArrAnn280",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "leadtime281",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "los282",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "occupantsGroupe283",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nbNuitee284",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbNuiteeNnDed285",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbResvAnn286",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbAdu287",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbEnf288",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersDayU289",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersArr290",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersDep291",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersAnn292",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbPersNoshow293",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbDayU294",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbArr295",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbDep296",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbAnn297",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nbChbNoshow298",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "revenuNetChambre299",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeChambre300",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetChambreGlobal301",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeChambreGlobal302",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetBq303",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeBq304",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetBqGlobal305",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeBqGlobal306",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetExtra307",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeExtra308",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuNetExtraGlobal309",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "revenuTaxeExtraGlobal310",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "Table2",
+  "relationships": [],
+  "searchEngine": "no"
+}
